@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="32" passed="24" failed="8" skipped="0">
+<testng-results ignored="0" total="33" passed="26" failed="7" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-07T12:15:42Z" name="Gringotts Wizarding Bank" finished-at="2024-03-07T12:16:22Z" duration-ms="39538">
+  <suite started-at="2024-03-07T14:45:17Z" name="Gringotts Wizarding Bank" finished-at="2024-03-07T14:45:50Z" duration-ms="33129">
     <groups>
     </groups>
-    <test started-at="2024-03-07T12:15:42Z" name="GWB-Tests" finished-at="2024-03-07T12:16:22Z" duration-ms="39538">
+    <test started-at="2024-03-07T14:45:17Z" name="GWB-Tests" finished-at="2024-03-07T14:45:50Z" duration-ms="33129">
       <class name="com.crm.qa.testcases.CustomerLoginFunctionalitiesTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.CustomerLoginFunctionalitiesTest@d771cc9]" started-at="2024-03-07T17:46:07Z" name="setUp" finished-at="2024-03-07T17:46:10Z" duration-ms="3087" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.CustomerLoginFunctionalitiesTest@36b4091c]" started-at="2024-03-07T20:15:38Z" name="setUp" finished-at="2024-03-07T20:15:40Z" duration-ms="2335" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="VerifycustLoginBtnFunctionality()[pri:19, instance:com.crm.qa.testcases.CustomerLoginFunctionalitiesTest@d771cc9]" started-at="2024-03-07T17:46:10Z" name="VerifycustLoginBtnFunctionality" finished-at="2024-03-07T17:46:12Z" duration-ms="1206" status="PASS">
+        <test-method signature="VerifycustLoginBtnFunctionality()[pri:20, instance:com.crm.qa.testcases.CustomerLoginFunctionalitiesTest@36b4091c]" started-at="2024-03-07T20:15:40Z" name="VerifycustLoginBtnFunctionality" finished-at="2024-03-07T20:15:42Z" duration-ms="1176" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifycustLoginBtnFunctionality -->
-        <test-method signature="VerifyCustomerLogin()[pri:20, instance:com.crm.qa.testcases.CustomerLoginFunctionalitiesTest@d771cc9]" started-at="2024-03-07T17:46:12Z" name="VerifyCustomerLogin" finished-at="2024-03-07T17:46:13Z" duration-ms="990" status="PASS">
+        <test-method signature="VerifyCustomerLogin()[pri:21, instance:com.crm.qa.testcases.CustomerLoginFunctionalitiesTest@36b4091c]" started-at="2024-03-07T20:15:42Z" name="VerifyCustomerLogin" finished-at="2024-03-07T20:15:42Z" duration-ms="877" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyCustomerLogin -->
-        <test-method signature="depositValidAmount()[pri:22, instance:com.crm.qa.testcases.CustomerLoginFunctionalitiesTest@d771cc9]" started-at="2024-03-07T17:46:13Z" name="depositValidAmount" finished-at="2024-03-07T17:46:14Z" duration-ms="1662" status="PASS">
+        <test-method signature="depositValidAmount()[pri:23, instance:com.crm.qa.testcases.CustomerLoginFunctionalitiesTest@36b4091c]" started-at="2024-03-07T20:15:42Z" name="depositValidAmount" finished-at="2024-03-07T20:15:43Z" duration-ms="895" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- depositValidAmount -->
-        <test-method signature="depositInValidAmount()[pri:23, instance:com.crm.qa.testcases.CustomerLoginFunctionalitiesTest@d771cc9]" started-at="2024-03-07T17:46:14Z" name="depositInValidAmount" finished-at="2024-03-07T17:46:15Z" duration-ms="702" status="FAIL">
+        <test-method signature="depositInValidAmount()[pri:24, instance:com.crm.qa.testcases.CustomerLoginFunctionalitiesTest@36b4091c]" started-at="2024-03-07T20:15:43Z" name="depositInValidAmount" finished-at="2024-03-07T20:15:44Z" duration-ms="528" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[No warning raised. New issue detected expected [Deposit Successful] but found [Invalid Input]]]>
@@ -67,15 +67,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- depositInValidAmount -->
-        <test-method signature="depositDecimalAmount()[pri:24, instance:com.crm.qa.testcases.CustomerLoginFunctionalitiesTest@d771cc9]" started-at="2024-03-07T17:46:15Z" name="depositDecimalAmount" finished-at="2024-03-07T17:46:16Z" duration-ms="685" status="PASS">
+        <test-method signature="depositDecimalAmount()[pri:25, instance:com.crm.qa.testcases.CustomerLoginFunctionalitiesTest@36b4091c]" started-at="2024-03-07T20:15:44Z" name="depositDecimalAmount" finished-at="2024-03-07T20:15:44Z" duration-ms="500" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- depositDecimalAmount -->
-        <test-method signature="withdrawValidAmount()[pri:25, instance:com.crm.qa.testcases.CustomerLoginFunctionalitiesTest@d771cc9]" started-at="2024-03-07T17:46:16Z" name="withdrawValidAmount" finished-at="2024-03-07T17:46:17Z" duration-ms="1472" status="PASS">
+        <test-method signature="withdrawValidAmount()[pri:26, instance:com.crm.qa.testcases.CustomerLoginFunctionalitiesTest@36b4091c]" started-at="2024-03-07T20:15:44Z" name="withdrawValidAmount" finished-at="2024-03-07T20:15:46Z" duration-ms="1950" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- withdrawValidAmount -->
-        <test-method signature="withdrawInValidAmount()[pri:26, instance:com.crm.qa.testcases.CustomerLoginFunctionalitiesTest@d771cc9]" started-at="2024-03-07T17:46:17Z" name="withdrawInValidAmount" finished-at="2024-03-07T17:46:18Z" duration-ms="1092" status="FAIL">
+        <test-method signature="withdrawInValidAmount()[pri:27, instance:com.crm.qa.testcases.CustomerLoginFunctionalitiesTest@36b4091c]" started-at="2024-03-07T20:15:46Z" name="withdrawInValidAmount" finished-at="2024-03-07T20:15:47Z" duration-ms="800" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[No warning raised. New issue detected expected [Transaction successful] but found [Invalid Input]]]>
@@ -119,15 +119,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- withdrawInValidAmount -->
-        <test-method signature="withdrawDecimalAmount()[pri:27, instance:com.crm.qa.testcases.CustomerLoginFunctionalitiesTest@d771cc9]" started-at="2024-03-07T17:46:18Z" name="withdrawDecimalAmount" finished-at="2024-03-07T17:46:19Z" duration-ms="668" status="PASS">
+        <test-method signature="withdrawDecimalAmount()[pri:28, instance:com.crm.qa.testcases.CustomerLoginFunctionalitiesTest@36b4091c]" started-at="2024-03-07T20:15:47Z" name="withdrawDecimalAmount" finished-at="2024-03-07T20:15:48Z" duration-ms="461" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- withdrawDecimalAmount -->
-        <test-method signature="withdrawInsufficientAmount()[pri:28, instance:com.crm.qa.testcases.CustomerLoginFunctionalitiesTest@d771cc9]" started-at="2024-03-07T17:46:19Z" name="withdrawInsufficientAmount" finished-at="2024-03-07T17:46:20Z" duration-ms="687" status="PASS">
+        <test-method signature="withdrawInsufficientAmount()[pri:29, instance:com.crm.qa.testcases.CustomerLoginFunctionalitiesTest@36b4091c]" started-at="2024-03-07T20:15:48Z" name="withdrawInsufficientAmount" finished-at="2024-03-07T20:15:48Z" duration-ms="458" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- withdrawInsufficientAmount -->
-        <test-method signature="transactionResetFunctionalities()[pri:29, instance:com.crm.qa.testcases.CustomerLoginFunctionalitiesTest@d771cc9]" started-at="2024-03-07T17:46:20Z" name="transactionResetFunctionalities" finished-at="2024-03-07T17:46:20Z" duration-ms="791" status="FAIL">
+        <test-method signature="transactionResetFunctionalities()[pri:30, instance:com.crm.qa.testcases.CustomerLoginFunctionalitiesTest@36b4091c]" started-at="2024-03-07T20:15:48Z" name="transactionResetFunctionalities" finished-at="2024-03-07T20:15:49Z" duration-ms="667" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[No warning raised. Major Issue detected. Balance is resetting, too. expected [Data reset successful] but found [Data reset unsuccessful]]]>
@@ -171,15 +171,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- transactionResetFunctionalities -->
-        <test-method signature="transactionBackFunctionalities()[pri:30, instance:com.crm.qa.testcases.CustomerLoginFunctionalitiesTest@d771cc9]" started-at="2024-03-07T17:46:20Z" name="transactionBackFunctionalities" finished-at="2024-03-07T17:46:21Z" duration-ms="230" status="PASS">
+        <test-method signature="transactionBackFunctionalities()[pri:31, instance:com.crm.qa.testcases.CustomerLoginFunctionalitiesTest@36b4091c]" started-at="2024-03-07T20:15:49Z" name="transactionBackFunctionalities" finished-at="2024-03-07T20:15:49Z" duration-ms="145" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- transactionBackFunctionalities -->
-        <test-method signature="VerifyLogoutFunctionality()[pri:31, instance:com.crm.qa.testcases.CustomerLoginFunctionalitiesTest@d771cc9]" started-at="2024-03-07T17:46:21Z" name="VerifyLogoutFunctionality" finished-at="2024-03-07T17:46:21Z" duration-ms="278" status="PASS">
+        <test-method signature="VerifyLogoutFunctionality()[pri:32, instance:com.crm.qa.testcases.CustomerLoginFunctionalitiesTest@36b4091c]" started-at="2024-03-07T20:15:49Z" name="VerifyLogoutFunctionality" finished-at="2024-03-07T20:15:49Z" duration-ms="193" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyLogoutFunctionality -->
-        <test-method signature="VerifyPostLogoutFunctionality()[pri:32, instance:com.crm.qa.testcases.CustomerLoginFunctionalitiesTest@d771cc9]" started-at="2024-03-07T17:46:21Z" name="VerifyPostLogoutFunctionality" finished-at="2024-03-07T17:46:21Z" duration-ms="308" status="FAIL">
+        <test-method signature="VerifyPostLogoutFunctionality()[pri:33, instance:com.crm.qa.testcases.CustomerLoginFunctionalitiesTest@36b4091c]" started-at="2024-03-07T20:15:49Z" name="VerifyPostLogoutFunctionality" finished-at="2024-03-07T20:15:49Z" duration-ms="209" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Customer is able to visit the session after logging out. New issue expected [Customer is not able to visit the session after logging out.] but found [Customer is able to visit the session after logging out. New issue]]]>
@@ -191,7 +191,7 @@
 	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
 	at org.testng.Assert.assertEquals(Assert.java:115)
 	at org.testng.Assert.assertEquals(Assert.java:189)
-	at com.crm.qa.testcases.CustomerLoginFunctionalitiesTest.VerifyPostLogoutFunctionality(CustomerLoginFunctionalitiesTest.java:110)
+	at com.crm.qa.testcases.CustomerLoginFunctionalitiesTest.VerifyPostLogoutFunctionality(CustomerLoginFunctionalitiesTest.java:112)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -223,7 +223,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyPostLogoutFunctionality -->
-        <test-method signature="VerifyredirectToNonaccessablePageFunctionality()[pri:33, instance:com.crm.qa.testcases.CustomerLoginFunctionalitiesTest@d771cc9]" started-at="2024-03-07T17:46:21Z" name="VerifyredirectToNonaccessablePageFunctionality" finished-at="2024-03-07T17:46:21Z" duration-ms="277" status="FAIL">
+        <test-method signature="VerifyredirectToNonaccessablePageFunctionality()[pri:34, instance:com.crm.qa.testcases.CustomerLoginFunctionalitiesTest@36b4091c]" started-at="2024-03-07T20:15:49Z" name="VerifyredirectToNonaccessablePageFunctionality" finished-at="2024-03-07T20:15:50Z" duration-ms="216" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Customer is able to access the account after logging out. New issue expected [Customer is not access the account after logging out.] but found [Customer is able to access the account after logging out. New issue]]]>
@@ -235,7 +235,7 @@
 	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
 	at org.testng.Assert.assertEquals(Assert.java:115)
 	at org.testng.Assert.assertEquals(Assert.java:189)
-	at com.crm.qa.testcases.CustomerLoginFunctionalitiesTest.VerifyredirectToNonaccessablePageFunctionality(CustomerLoginFunctionalitiesTest.java:115)
+	at com.crm.qa.testcases.CustomerLoginFunctionalitiesTest.VerifyredirectToNonaccessablePageFunctionality(CustomerLoginFunctionalitiesTest.java:117)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -267,63 +267,67 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyredirectToNonaccessablePageFunctionality -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.CustomerLoginFunctionalitiesTest@d771cc9]" started-at="2024-03-07T17:46:21Z" name="tearDown" finished-at="2024-03-07T17:46:22Z" duration-ms="522" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.CustomerLoginFunctionalitiesTest@36b4091c]" started-at="2024-03-07T20:15:50Z" name="tearDown" finished-at="2024-03-07T20:15:50Z" duration-ms="257" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.crm.qa.testcases.CustomerLoginFunctionalitiesTest -->
       <class name="com.crm.qa.testcases.HomeDashBoardTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.HomeDashBoardTest@16eccb2e]" started-at="2024-03-07T17:45:42Z" name="setUp" finished-at="2024-03-07T17:45:48Z" duration-ms="5070" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.HomeDashBoardTest@5ef5c734]" started-at="2024-03-07T20:15:17Z" name="setUp" finished-at="2024-03-07T20:15:20Z" duration-ms="3742" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="VerifyTitle()[pri:1, instance:com.crm.qa.testcases.HomeDashBoardTest@16eccb2e]" started-at="2024-03-07T17:45:48Z" name="VerifyTitle" finished-at="2024-03-07T17:45:48Z" duration-ms="694" status="PASS">
+        <test-method signature="VerifyTitle()[pri:1, instance:com.crm.qa.testcases.HomeDashBoardTest@5ef5c734]" started-at="2024-03-07T20:15:20Z" name="VerifyTitle" finished-at="2024-03-07T20:15:21Z" duration-ms="663" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyTitle -->
-        <test-method signature="VerifyHomeBtn()[pri:2, instance:com.crm.qa.testcases.HomeDashBoardTest@16eccb2e]" started-at="2024-03-07T17:45:48Z" name="VerifyHomeBtn" finished-at="2024-03-07T17:45:48Z" duration-ms="132" status="PASS">
+        <test-method signature="VerifyHomeBtn()[pri:2, instance:com.crm.qa.testcases.HomeDashBoardTest@5ef5c734]" started-at="2024-03-07T20:15:21Z" name="VerifyHomeBtn" finished-at="2024-03-07T20:15:21Z" duration-ms="101" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyHomeBtn -->
-        <test-method signature="VerifycustLoginBtn()[pri:3, instance:com.crm.qa.testcases.HomeDashBoardTest@16eccb2e]" started-at="2024-03-07T17:45:48Z" name="VerifycustLoginBtn" finished-at="2024-03-07T17:45:48Z" duration-ms="98" status="PASS">
+        <test-method signature="VerifycustLoginBtn()[pri:3, instance:com.crm.qa.testcases.HomeDashBoardTest@5ef5c734]" started-at="2024-03-07T20:15:21Z" name="VerifycustLoginBtn" finished-at="2024-03-07T20:15:21Z" duration-ms="71" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifycustLoginBtn -->
-        <test-method signature="VerifybankManagerLoginBtn()[pri:4, instance:com.crm.qa.testcases.HomeDashBoardTest@16eccb2e]" started-at="2024-03-07T17:45:48Z" name="VerifybankManagerLoginBtn" finished-at="2024-03-07T17:45:49Z" duration-ms="70" status="PASS">
+        <test-method signature="VerifybankManagerLoginBtn()[pri:4, instance:com.crm.qa.testcases.HomeDashBoardTest@5ef5c734]" started-at="2024-03-07T20:15:21Z" name="VerifybankManagerLoginBtn" finished-at="2024-03-07T20:15:21Z" duration-ms="51" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifybankManagerLoginBtn -->
-        <test-method signature="VerifyHomeBtnFunctionality()[pri:5, instance:com.crm.qa.testcases.HomeDashBoardTest@16eccb2e]" started-at="2024-03-07T17:45:49Z" name="VerifyHomeBtnFunctionality" finished-at="2024-03-07T17:45:49Z" duration-ms="285" status="PASS">
+        <test-method signature="VerifyHomeBtnFunctionality()[pri:5, instance:com.crm.qa.testcases.HomeDashBoardTest@5ef5c734]" started-at="2024-03-07T20:15:21Z" name="VerifyHomeBtnFunctionality" finished-at="2024-03-07T20:15:22Z" duration-ms="206" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyHomeBtnFunctionality -->
-        <test-method signature="VerifycustLoginBtnFunctionality()[pri:6, instance:com.crm.qa.testcases.HomeDashBoardTest@16eccb2e]" started-at="2024-03-07T17:45:49Z" name="VerifycustLoginBtnFunctionality" finished-at="2024-03-07T17:45:49Z" duration-ms="569" status="PASS">
+        <test-method signature="VerifycustLoginBtnFunctionality()[pri:6, instance:com.crm.qa.testcases.HomeDashBoardTest@5ef5c734]" started-at="2024-03-07T20:15:22Z" name="VerifycustLoginBtnFunctionality" finished-at="2024-03-07T20:15:22Z" duration-ms="537" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifycustLoginBtnFunctionality -->
-        <test-method signature="VerifybankManagerLoginBtnFunctionality()[pri:7, instance:com.crm.qa.testcases.HomeDashBoardTest@16eccb2e]" started-at="2024-03-07T17:45:49Z" name="VerifybankManagerLoginBtnFunctionality" finished-at="2024-03-07T17:45:50Z" duration-ms="572" status="PASS">
+        <test-method signature="VerifybankManagerLoginBtnFunctionality()[pri:7, instance:com.crm.qa.testcases.HomeDashBoardTest@5ef5c734]" started-at="2024-03-07T20:15:22Z" name="VerifybankManagerLoginBtnFunctionality" finished-at="2024-03-07T20:15:23Z" duration-ms="507" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifybankManagerLoginBtnFunctionality -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.HomeDashBoardTest@16eccb2e]" started-at="2024-03-07T17:45:50Z" name="tearDown" finished-at="2024-03-07T17:45:50Z" duration-ms="416" status="PASS">
+        <test-method signature="VerifyNonAccountCustomersFunctionality()[pri:8, instance:com.crm.qa.testcases.HomeDashBoardTest@5ef5c734]" started-at="2024-03-07T20:15:23Z" name="VerifyNonAccountCustomersFunctionality" finished-at="2024-03-07T20:15:25Z" duration-ms="2330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyNonAccountCustomersFunctionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.HomeDashBoardTest@5ef5c734]" started-at="2024-03-07T20:15:25Z" name="tearDown" finished-at="2024-03-07T20:15:25Z" duration-ms="257" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.crm.qa.testcases.HomeDashBoardTest -->
       <class name="com.crm.qa.testcases.BankManagerLoginFunctionalitiesTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.BankManagerLoginFunctionalitiesTest@5ef5c734]" started-at="2024-03-07T17:45:50Z" name="setUp" finished-at="2024-03-07T17:45:54Z" duration-ms="3338" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.BankManagerLoginFunctionalitiesTest@d771cc9]" started-at="2024-03-07T20:15:25Z" name="setUp" finished-at="2024-03-07T20:15:28Z" duration-ms="2497" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="VerifyBankManagerLoginBtnFunctionality()[pri:8, instance:com.crm.qa.testcases.BankManagerLoginFunctionalitiesTest@5ef5c734]" started-at="2024-03-07T17:45:54Z" name="VerifyBankManagerLoginBtnFunctionality" finished-at="2024-03-07T17:45:55Z" duration-ms="1304" status="PASS">
+        <test-method signature="VerifyBankManagerLoginBtnFunctionality()[pri:9, instance:com.crm.qa.testcases.BankManagerLoginFunctionalitiesTest@d771cc9]" started-at="2024-03-07T20:15:28Z" name="VerifyBankManagerLoginBtnFunctionality" finished-at="2024-03-07T20:15:29Z" duration-ms="1071" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyBankManagerLoginBtnFunctionality -->
-        <test-method signature="VerifyBankManagerLogin()[pri:9, instance:com.crm.qa.testcases.BankManagerLoginFunctionalitiesTest@5ef5c734]" started-at="2024-03-07T17:45:55Z" name="VerifyBankManagerLogin" finished-at="2024-03-07T17:45:56Z" duration-ms="1411" status="PASS">
+        <test-method signature="VerifyBankManagerLogin()[pri:10, instance:com.crm.qa.testcases.BankManagerLoginFunctionalitiesTest@d771cc9]" started-at="2024-03-07T20:15:29Z" name="VerifyBankManagerLogin" finished-at="2024-03-07T20:15:30Z" duration-ms="1023" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyBankManagerLogin -->
-        <test-method signature="VerifyInvalidFnameBankManagerLogin()[pri:10, instance:com.crm.qa.testcases.BankManagerLoginFunctionalitiesTest@5ef5c734]" started-at="2024-03-07T17:45:56Z" name="VerifyInvalidFnameBankManagerLogin" finished-at="2024-03-07T17:45:57Z" duration-ms="989" status="FAIL">
+        <test-method signature="VerifyInvalidFnameBankManagerLogin()[pri:11, instance:com.crm.qa.testcases.BankManagerLoginFunctionalitiesTest@d771cc9]" started-at="2024-03-07T20:15:30Z" name="VerifyInvalidFnameBankManagerLogin" finished-at="2024-03-07T20:15:30Z" duration-ms="670" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[First name is containing special characters and numbers. New issue expected [Pop-up validation: Unexpected or no success message] but found [Pop-up validation: Customer added successfully]]]>
@@ -367,7 +371,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyInvalidFnameBankManagerLogin -->
-        <test-method signature="VerifyInvalidLnameBankManagerLogin()[pri:11, instance:com.crm.qa.testcases.BankManagerLoginFunctionalitiesTest@5ef5c734]" started-at="2024-03-07T17:45:57Z" name="VerifyInvalidLnameBankManagerLogin" finished-at="2024-03-07T17:45:58Z" duration-ms="993" status="FAIL">
+        <test-method signature="VerifyInvalidLnameBankManagerLogin()[pri:12, instance:com.crm.qa.testcases.BankManagerLoginFunctionalitiesTest@d771cc9]" started-at="2024-03-07T20:15:30Z" name="VerifyInvalidLnameBankManagerLogin" finished-at="2024-03-07T20:15:31Z" duration-ms="694" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Last name is containing special characters and numbers. New issue expected [Pop-up validation: Unexpected or no success message] but found [Pop-up validation: Customer added successfully]]]>
@@ -411,75 +415,35 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyInvalidLnameBankManagerLogin -->
-        <test-method signature="VerifyEmptyFieldBankManagerLogin()[pri:12, instance:com.crm.qa.testcases.BankManagerLoginFunctionalitiesTest@5ef5c734]" started-at="2024-03-07T17:45:58Z" name="VerifyEmptyFieldBankManagerLogin" finished-at="2024-03-07T17:46:01Z" duration-ms="2179" status="PASS">
+        <test-method signature="VerifyEmptyFieldBankManagerLogin()[pri:13, instance:com.crm.qa.testcases.BankManagerLoginFunctionalitiesTest@d771cc9]" started-at="2024-03-07T20:15:31Z" name="VerifyEmptyFieldBankManagerLogin" finished-at="2024-03-07T20:15:33Z" duration-ms="1763" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyEmptyFieldBankManagerLogin -->
-        <test-method signature="VerifyDuplicateBankManagerLogin()[pri:13, instance:com.crm.qa.testcases.BankManagerLoginFunctionalitiesTest@5ef5c734]" started-at="2024-03-07T17:46:01Z" name="VerifyDuplicateBankManagerLogin" finished-at="2024-03-07T17:46:02Z" duration-ms="951" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[Mandatory fields are not working. New issue. expected [Pop-up validation: Customer may be duplicate.] but found [Pop-up validation: Customer added successfully]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Mandatory fields are not working. New issue. expected [Pop-up validation: Customer may be duplicate.] but found [Pop-up validation: Customer added successfully]
-	at org.testng.Assert.fail(Assert.java:93)
-	at org.testng.Assert.failNotEquals(Assert.java:512)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
-	at org.testng.Assert.assertEquals(Assert.java:115)
-	at org.testng.Assert.assertEquals(Assert.java:189)
-	at com.crm.qa.testcases.BankManagerLoginFunctionalitiesTest.VerifyDuplicateBankManagerLogin(BankManagerLoginFunctionalitiesTest.java:57)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method signature="VerifyDuplicateBankManagerLogin()[pri:14, instance:com.crm.qa.testcases.BankManagerLoginFunctionalitiesTest@d771cc9]" started-at="2024-03-07T20:15:33Z" name="VerifyDuplicateBankManagerLogin" finished-at="2024-03-07T20:15:34Z" duration-ms="1068" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyDuplicateBankManagerLogin -->
-        <test-method signature="VerifyOpenAccountFunctionality()[pri:14, instance:com.crm.qa.testcases.BankManagerLoginFunctionalitiesTest@5ef5c734]" started-at="2024-03-07T17:46:02Z" name="VerifyOpenAccountFunctionality" finished-at="2024-03-07T17:46:03Z" duration-ms="1779" status="PASS">
+        <test-method signature="VerifyOpenAccountFunctionality()[pri:15, instance:com.crm.qa.testcases.BankManagerLoginFunctionalitiesTest@d771cc9]" started-at="2024-03-07T20:15:34Z" name="VerifyOpenAccountFunctionality" finished-at="2024-03-07T20:15:35Z" duration-ms="1311" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyOpenAccountFunctionality -->
-        <test-method signature="searchCustomersFunctionalityByName()[pri:15, instance:com.crm.qa.testcases.BankManagerLoginFunctionalitiesTest@5ef5c734]" started-at="2024-03-07T17:46:03Z" name="searchCustomersFunctionalityByName" finished-at="2024-03-07T17:46:04Z" duration-ms="957" status="PASS">
+        <test-method signature="searchCustomersFunctionalityByName()[pri:16, instance:com.crm.qa.testcases.BankManagerLoginFunctionalitiesTest@d771cc9]" started-at="2024-03-07T20:15:35Z" name="searchCustomersFunctionalityByName" finished-at="2024-03-07T20:15:36Z" duration-ms="787" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchCustomersFunctionalityByName -->
-        <test-method signature="searchCustomersFunctionalityByID()[pri:16, instance:com.crm.qa.testcases.BankManagerLoginFunctionalitiesTest@5ef5c734]" started-at="2024-03-07T17:46:04Z" name="searchCustomersFunctionalityByID" finished-at="2024-03-07T17:46:05Z" duration-ms="568" status="PASS">
+        <test-method signature="searchCustomersFunctionalityByID()[pri:17, instance:com.crm.qa.testcases.BankManagerLoginFunctionalitiesTest@d771cc9]" started-at="2024-03-07T20:15:36Z" name="searchCustomersFunctionalityByID" finished-at="2024-03-07T20:15:36Z" duration-ms="378" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchCustomersFunctionalityByID -->
-        <test-method signature="searchCustomersFunctionalityByPostCode()[pri:17, instance:com.crm.qa.testcases.BankManagerLoginFunctionalitiesTest@5ef5c734]" started-at="2024-03-07T17:46:05Z" name="searchCustomersFunctionalityByPostCode" finished-at="2024-03-07T17:46:05Z" duration-ms="580" status="PASS">
+        <test-method signature="searchCustomersFunctionalityByPostCode()[pri:18, instance:com.crm.qa.testcases.BankManagerLoginFunctionalitiesTest@d771cc9]" started-at="2024-03-07T20:15:36Z" name="searchCustomersFunctionalityByPostCode" finished-at="2024-03-07T20:15:37Z" duration-ms="392" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchCustomersFunctionalityByPostCode -->
-        <test-method signature="deleteCustomerFunctionality()[pri:18, instance:com.crm.qa.testcases.BankManagerLoginFunctionalitiesTest@5ef5c734]" started-at="2024-03-07T17:46:05Z" name="deleteCustomerFunctionality" finished-at="2024-03-07T17:46:07Z" duration-ms="1343" status="PASS">
+        <test-method signature="deleteCustomerFunctionality()[pri:19, instance:com.crm.qa.testcases.BankManagerLoginFunctionalitiesTest@d771cc9]" started-at="2024-03-07T20:15:37Z" name="deleteCustomerFunctionality" finished-at="2024-03-07T20:15:38Z" duration-ms="973" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteCustomerFunctionality -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.BankManagerLoginFunctionalitiesTest@5ef5c734]" started-at="2024-03-07T17:46:07Z" name="tearDown" finished-at="2024-03-07T17:46:07Z" duration-ms="410" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.BankManagerLoginFunctionalitiesTest@d771cc9]" started-at="2024-03-07T20:15:38Z" name="tearDown" finished-at="2024-03-07T20:15:38Z" duration-ms="253" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

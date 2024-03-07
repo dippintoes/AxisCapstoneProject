@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.crm.qa.testcases.CustomerLoginFunctionalitiesTest">
+      <class name="com.crm.qa.testcases.HomeDashBoardTest">
         <methods>
-          <include name="transactionResetFunctionalities"/>
+          <include name="VerifyNonAccountCustomersFunctionality"/>
           <include name="tearDown"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- com.crm.qa.testcases.CustomerLoginFunctionalitiesTest -->
+      </class> <!-- com.crm.qa.testcases.HomeDashBoardTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

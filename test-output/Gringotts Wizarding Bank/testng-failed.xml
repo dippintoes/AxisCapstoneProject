@@ -23,7 +23,6 @@
           <include name="VerifyInvalidLnameBankManagerLogin"/>
           <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="VerifyDuplicateBankManagerLogin"/>
         </methods>
       </class> <!-- com.crm.qa.testcases.BankManagerLoginFunctionalitiesTest -->
     </classes>

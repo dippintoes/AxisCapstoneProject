@@ -1,8 +1,5 @@
 package com.crm.qa.pages;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -289,6 +286,8 @@ public class CustomerLoginFunctionalitiesPage extends TestBase {
 	    //logout related functionalities
 	    @FindBy(xpath="//button[contains(text(),'Logout')]")
 		WebElement logoutBtn;
+	    
+	    
 	    
 	    public Boolean logout() {
 			logoutBtn.click();

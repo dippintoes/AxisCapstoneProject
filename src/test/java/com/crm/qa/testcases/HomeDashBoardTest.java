@@ -60,6 +60,11 @@ public class HomeDashBoardTest extends TestBase {
 		driver.navigate().back();
 	}
 	
+	@Test(priority=8)
+	public void VerifyNonAccountCustomersFunctionality(){
+		Assert.assertEquals(hdbPage.nonAccountCustomers(),"Please open an account with us.","Customer can login to account without creating one!! Major issue");
+	}
+	
 	
 	@AfterClass
 	public void tearDown(){

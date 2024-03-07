@@ -48,7 +48,6 @@ public class BankManagerLoginFunctionalitiesPage extends TestBase{
 	    
 	    //add customer functionalities
 	    public String addCustomer(String fname,String lname, String pcode){
-	    	int id;
 	    	addCustomerBtn.click();
 	    	
 	    	fnametext.sendKeys(fname);
@@ -70,7 +69,7 @@ public class BankManagerLoginFunctionalitiesPage extends TestBase{
 
 	        // Validate the content of the alert
 	        if (alertText.contains("Customer added successfully")) {
-	        	 id=Integer.parseInt(alertText.substring(46));
+//	        	 int id=Integer.parseInt(alertText.substring(46));
 	            return "Pop-up validation: Customer added successfully";
 	        } 
 	        else if(alertText.contains("Customer may be duplicate.")) {
