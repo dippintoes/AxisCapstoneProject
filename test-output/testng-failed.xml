@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Gringotts Wizarding Bank]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.qa.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test name="GWB-Tests(failed)">
+    <classes>
+      <class name="com.crm.qa.testcases.CustomerLoginFunctionalitiesTest">
+        <methods>
+          <include name="withdrawInValidAmount"/>
+          <include name="VerifyredirectToNonaccessablePageFunctionality"/>
+          <include name="transactionResetFunctionalities"/>
+          <include name="VerifyPostLogoutFunctionality"/>
+          <include name="depositInValidAmount"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.CustomerLoginFunctionalitiesTest -->
+      <class name="com.crm.qa.testcases.BankManagerLoginFunctionalitiesTest">
+        <methods>
+          <include name="VerifyInvalidFnameBankManagerLogin"/>
+          <include name="VerifyInvalidLnameBankManagerLogin"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="VerifyDuplicateBankManagerLogin"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.BankManagerLoginFunctionalitiesTest -->
+    </classes>
+  </test> <!-- GWB-Tests(failed) -->
+</suite> <!-- Failed suite [Gringotts Wizarding Bank] -->

@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Gringotts Wizarding Bank">
-	<listeners>
-		<listener class-name="com.qa.ExtentReportListener.ExtentReporterNG" />
-	</listeners>
-  <test thread-count="5" name="GWB-Tests">
-  	<classes>
-  		<class name="com.crm.qa.testcases.LoginTestcase"></class>
-  	</classes>
-  </test> <!-- Test -->
+    <listeners>
+        <listener class-name="com.qa.ExtentReportListener.ExtentReporterNG" />
+    </listeners>
+    <test name="GWB-Tests" parallel="none" preserve-order="true">
+        <classes>
+            <class name="com.crm.qa.testcases.HomeDashBoardTest"/>
+            <class name="com.crm.qa.testcases.BankManagerLoginFunctionalitiesTest"/>
+            <class name="com.crm.qa.testcases.CustomerLoginFunctionalitiesTest"/>
+        </classes>
+    </test> <!-- Test -->
 </suite> <!-- Suite -->

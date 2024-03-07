@@ -1,0 +1,976 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 8 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Gringotts_Wizarding_Bank" class="navigator-link">
+              <span class="suite-name border-failed">Gringotts Wizarding Bank</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Gringotts_Wizarding_Bank" class="navigator-link ">
+                    <span>D:\AXIS_TRAINING\eclipse-workspace\Gringotts_Wizarding_Bank\src\main\resources\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Gringotts_Wizarding_Bank" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Gringotts_Wizarding_Bank" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Gringotts_Wizarding_Bank" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Gringotts_Wizarding_Bank" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Gringotts_Wizarding_Bank" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Gringotts_Wizarding_Bank" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">32 methods, 8 failed,   24 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Gringotts_Wizarding_Bank" class="hide-methods failed suite-Gringotts_Wizarding_Bank"> (hide)</a> <!-- hide-methods failed suite-Gringotts_Wizarding_Bank -->
+                      <a href="#" panel-name="suite-Gringotts_Wizarding_Bank" class="show-methods failed suite-Gringotts_Wizarding_Bank"> (show)</a> <!-- show-methods failed suite-Gringotts_Wizarding_Bank -->
+                    </span>
+                    <div class="method-list-content failed suite-Gringotts_Wizarding_Bank">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Gringotts_Wizarding_Bank" title="com.crm.qa.testcases.BankManagerLoginFunctionalitiesTest" class="method navigator-link" hash-for-method="VerifyDuplicateBankManagerLogin">VerifyDuplicateBankManagerLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Gringotts_Wizarding_Bank" title="com.crm.qa.testcases.BankManagerLoginFunctionalitiesTest" class="method navigator-link" hash-for-method="VerifyInvalidFnameBankManagerLogin">VerifyInvalidFnameBankManagerLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Gringotts_Wizarding_Bank" title="com.crm.qa.testcases.BankManagerLoginFunctionalitiesTest" class="method navigator-link" hash-for-method="VerifyInvalidLnameBankManagerLogin">VerifyInvalidLnameBankManagerLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Gringotts_Wizarding_Bank" title="com.crm.qa.testcases.CustomerLoginFunctionalitiesTest" class="method navigator-link" hash-for-method="VerifyPostLogoutFunctionality">VerifyPostLogoutFunctionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Gringotts_Wizarding_Bank" title="com.crm.qa.testcases.CustomerLoginFunctionalitiesTest" class="method navigator-link" hash-for-method="VerifyredirectToNonaccessablePageFunctionality">VerifyredirectToNonaccessablePageFunctionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Gringotts_Wizarding_Bank" title="com.crm.qa.testcases.CustomerLoginFunctionalitiesTest" class="method navigator-link" hash-for-method="depositInValidAmount">depositInValidAmount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Gringotts_Wizarding_Bank" title="com.crm.qa.testcases.CustomerLoginFunctionalitiesTest" class="method navigator-link" hash-for-method="transactionResetFunctionalities">transactionResetFunctionalities</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Gringotts_Wizarding_Bank" title="com.crm.qa.testcases.CustomerLoginFunctionalitiesTest" class="method navigator-link" hash-for-method="withdrawInValidAmount">withdrawInValidAmount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Gringotts_Wizarding_Bank -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Gringotts_Wizarding_Bank" class="hide-methods passed suite-Gringotts_Wizarding_Bank"> (hide)</a> <!-- hide-methods passed suite-Gringotts_Wizarding_Bank -->
+                      <a href="#" panel-name="suite-Gringotts_Wizarding_Bank" class="show-methods passed suite-Gringotts_Wizarding_Bank"> (show)</a> <!-- show-methods passed suite-Gringotts_Wizarding_Bank -->
+                    </span>
+                    <div class="method-list-content passed suite-Gringotts_Wizarding_Bank">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Gringotts_Wizarding_Bank" title="com.crm.qa.testcases.BankManagerLoginFunctionalitiesTest" class="method navigator-link" hash-for-method="VerifyBankManagerLogin">VerifyBankManagerLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Gringotts_Wizarding_Bank" title="com.crm.qa.testcases.BankManagerLoginFunctionalitiesTest" class="method navigator-link" hash-for-method="VerifyBankManagerLoginBtnFunctionality">VerifyBankManagerLoginBtnFunctionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Gringotts_Wizarding_Bank" title="com.crm.qa.testcases.CustomerLoginFunctionalitiesTest" class="method navigator-link" hash-for-method="VerifyCustomerLogin">VerifyCustomerLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Gringotts_Wizarding_Bank" title="com.crm.qa.testcases.BankManagerLoginFunctionalitiesTest" class="method navigator-link" hash-for-method="VerifyEmptyFieldBankManagerLogin">VerifyEmptyFieldBankManagerLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Gringotts_Wizarding_Bank" title="com.crm.qa.testcases.HomeDashBoardTest" class="method navigator-link" hash-for-method="VerifyHomeBtn">VerifyHomeBtn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Gringotts_Wizarding_Bank" title="com.crm.qa.testcases.HomeDashBoardTest" class="method navigator-link" hash-for-method="VerifyHomeBtnFunctionality">VerifyHomeBtnFunctionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Gringotts_Wizarding_Bank" title="com.crm.qa.testcases.CustomerLoginFunctionalitiesTest" class="method navigator-link" hash-for-method="VerifyLogoutFunctionality">VerifyLogoutFunctionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Gringotts_Wizarding_Bank" title="com.crm.qa.testcases.BankManagerLoginFunctionalitiesTest" class="method navigator-link" hash-for-method="VerifyOpenAccountFunctionality">VerifyOpenAccountFunctionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Gringotts_Wizarding_Bank" title="com.crm.qa.testcases.HomeDashBoardTest" class="method navigator-link" hash-for-method="VerifyTitle">VerifyTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Gringotts_Wizarding_Bank" title="com.crm.qa.testcases.HomeDashBoardTest" class="method navigator-link" hash-for-method="VerifybankManagerLoginBtn">VerifybankManagerLoginBtn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Gringotts_Wizarding_Bank" title="com.crm.qa.testcases.HomeDashBoardTest" class="method navigator-link" hash-for-method="VerifybankManagerLoginBtnFunctionality">VerifybankManagerLoginBtnFunctionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Gringotts_Wizarding_Bank" title="com.crm.qa.testcases.HomeDashBoardTest" class="method navigator-link" hash-for-method="VerifycustLoginBtn">VerifycustLoginBtn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Gringotts_Wizarding_Bank" title="com.crm.qa.testcases.CustomerLoginFunctionalitiesTest" class="method navigator-link" hash-for-method="VerifycustLoginBtnFunctionality">VerifycustLoginBtnFunctionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Gringotts_Wizarding_Bank" title="com.crm.qa.testcases.HomeDashBoardTest" class="method navigator-link" hash-for-method="VerifycustLoginBtnFunctionality">VerifycustLoginBtnFunctionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Gringotts_Wizarding_Bank" title="com.crm.qa.testcases.BankManagerLoginFunctionalitiesTest" class="method navigator-link" hash-for-method="deleteCustomerFunctionality">deleteCustomerFunctionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Gringotts_Wizarding_Bank" title="com.crm.qa.testcases.CustomerLoginFunctionalitiesTest" class="method navigator-link" hash-for-method="depositDecimalAmount">depositDecimalAmount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Gringotts_Wizarding_Bank" title="com.crm.qa.testcases.CustomerLoginFunctionalitiesTest" class="method navigator-link" hash-for-method="depositValidAmount">depositValidAmount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Gringotts_Wizarding_Bank" title="com.crm.qa.testcases.BankManagerLoginFunctionalitiesTest" class="method navigator-link" hash-for-method="searchCustomersFunctionalityByID">searchCustomersFunctionalityByID</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Gringotts_Wizarding_Bank" title="com.crm.qa.testcases.BankManagerLoginFunctionalitiesTest" class="method navigator-link" hash-for-method="searchCustomersFunctionalityByName">searchCustomersFunctionalityByName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Gringotts_Wizarding_Bank" title="com.crm.qa.testcases.BankManagerLoginFunctionalitiesTest" class="method navigator-link" hash-for-method="searchCustomersFunctionalityByPostCode">searchCustomersFunctionalityByPostCode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Gringotts_Wizarding_Bank" title="com.crm.qa.testcases.CustomerLoginFunctionalitiesTest" class="method navigator-link" hash-for-method="transactionBackFunctionalities">transactionBackFunctionalities</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Gringotts_Wizarding_Bank" title="com.crm.qa.testcases.CustomerLoginFunctionalitiesTest" class="method navigator-link" hash-for-method="withdrawDecimalAmount">withdrawDecimalAmount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Gringotts_Wizarding_Bank" title="com.crm.qa.testcases.CustomerLoginFunctionalitiesTest" class="method navigator-link" hash-for-method="withdrawInsufficientAmount">withdrawInsufficientAmount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Gringotts_Wizarding_Bank" title="com.crm.qa.testcases.CustomerLoginFunctionalitiesTest" class="method navigator-link" hash-for-method="withdrawValidAmount">withdrawValidAmount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Gringotts_Wizarding_Bank -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Gringotts_Wizarding_Bank" class="panel Gringotts_Wizarding_Bank">
+          <div class="suite-Gringotts_Wizarding_Bank-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.crm.qa.testcases.CustomerLoginFunctionalitiesTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyPostLogoutFunctionality">
+                  </a> <!-- VerifyPostLogoutFunctionality -->
+                  <span class="method-name">VerifyPostLogoutFunctionality</span>
+                  <div class="stack-trace">java.lang.AssertionError: Customer is able to visit the session after logging out. New issue expected [Customer is not able to visit the session after logging out.] but found [Customer is able to visit the session after logging out. New issue]
+	at com.crm.qa.testcases.CustomerLoginFunctionalitiesTest.VerifyPostLogoutFunctionality(CustomerLoginFunctionalitiesTest.java:110)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyredirectToNonaccessablePageFunctionality">
+                  </a> <!-- VerifyredirectToNonaccessablePageFunctionality -->
+                  <span class="method-name">VerifyredirectToNonaccessablePageFunctionality</span>
+                  <div class="stack-trace">java.lang.AssertionError: Customer is able to access the account after logging out. New issue expected [Customer is not access the account after logging out.] but found [Customer is able to access the account after logging out. New issue]
+	at com.crm.qa.testcases.CustomerLoginFunctionalitiesTest.VerifyredirectToNonaccessablePageFunctionality(CustomerLoginFunctionalitiesTest.java:115)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="depositInValidAmount">
+                  </a> <!-- depositInValidAmount -->
+                  <span class="method-name">depositInValidAmount</span>
+                  <div class="stack-trace">java.lang.AssertionError: No warning raised. New issue detected expected [Deposit Successful] but found [Invalid Input]
+	at com.crm.qa.testcases.CustomerLoginFunctionalitiesTest.depositInValidAmount(CustomerLoginFunctionalitiesTest.java:52)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="transactionResetFunctionalities">
+                  </a> <!-- transactionResetFunctionalities -->
+                  <span class="method-name">transactionResetFunctionalities</span>
+                  <div class="stack-trace">java.lang.AssertionError: No warning raised. Major Issue detected. Balance is resetting, too. expected [Data reset successful] but found [Data reset unsuccessful]
+	at com.crm.qa.testcases.CustomerLoginFunctionalitiesTest.transactionResetFunctionalities(CustomerLoginFunctionalitiesTest.java:92)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="withdrawInValidAmount">
+                  </a> <!-- withdrawInValidAmount -->
+                  <span class="method-name">withdrawInValidAmount</span>
+                  <div class="stack-trace">java.lang.AssertionError: No warning raised. New issue detected expected [Transaction successful] but found [Invalid Input]
+	at com.crm.qa.testcases.CustomerLoginFunctionalitiesTest.withdrawInValidAmount(CustomerLoginFunctionalitiesTest.java:73)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Gringotts_Wizarding_Bank-class-failed -->
+          <div class="suite-Gringotts_Wizarding_Bank-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.crm.qa.testcases.BankManagerLoginFunctionalitiesTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyDuplicateBankManagerLogin">
+                  </a> <!-- VerifyDuplicateBankManagerLogin -->
+                  <span class="method-name">VerifyDuplicateBankManagerLogin</span>
+                  <div class="stack-trace">java.lang.AssertionError: Mandatory fields are not working. New issue. expected [Pop-up validation: Customer may be duplicate.] but found [Pop-up validation: Customer added successfully]
+	at com.crm.qa.testcases.BankManagerLoginFunctionalitiesTest.VerifyDuplicateBankManagerLogin(BankManagerLoginFunctionalitiesTest.java:57)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyInvalidFnameBankManagerLogin">
+                  </a> <!-- VerifyInvalidFnameBankManagerLogin -->
+                  <span class="method-name">VerifyInvalidFnameBankManagerLogin</span>
+                  <div class="stack-trace">java.lang.AssertionError: First name is containing special characters and numbers. New issue expected [Pop-up validation: Unexpected or no success message] but found [Pop-up validation: Customer added successfully]
+	at com.crm.qa.testcases.BankManagerLoginFunctionalitiesTest.VerifyInvalidFnameBankManagerLogin(BankManagerLoginFunctionalitiesTest.java:41)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyInvalidLnameBankManagerLogin">
+                  </a> <!-- VerifyInvalidLnameBankManagerLogin -->
+                  <span class="method-name">VerifyInvalidLnameBankManagerLogin</span>
+                  <div class="stack-trace">java.lang.AssertionError: Last name is containing special characters and numbers. New issue expected [Pop-up validation: Unexpected or no success message] but found [Pop-up validation: Customer added successfully]
+	at com.crm.qa.testcases.BankManagerLoginFunctionalitiesTest.VerifyInvalidLnameBankManagerLogin(BankManagerLoginFunctionalitiesTest.java:46)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Gringotts_Wizarding_Bank-class-failed -->
+          <div class="suite-Gringotts_Wizarding_Bank-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.crm.qa.testcases.HomeDashBoardTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyHomeBtn">
+                  </a> <!-- VerifyHomeBtn -->
+                  <span class="method-name">VerifyHomeBtn</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyHomeBtnFunctionality">
+                  </a> <!-- VerifyHomeBtnFunctionality -->
+                  <span class="method-name">VerifyHomeBtnFunctionality</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyTitle">
+                  </a> <!-- VerifyTitle -->
+                  <span class="method-name">VerifyTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifybankManagerLoginBtn">
+                  </a> <!-- VerifybankManagerLoginBtn -->
+                  <span class="method-name">VerifybankManagerLoginBtn</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifybankManagerLoginBtnFunctionality">
+                  </a> <!-- VerifybankManagerLoginBtnFunctionality -->
+                  <span class="method-name">VerifybankManagerLoginBtnFunctionality</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifycustLoginBtn">
+                  </a> <!-- VerifycustLoginBtn -->
+                  <span class="method-name">VerifycustLoginBtn</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifycustLoginBtnFunctionality">
+                  </a> <!-- VerifycustLoginBtnFunctionality -->
+                  <span class="method-name">VerifycustLoginBtnFunctionality</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Gringotts_Wizarding_Bank-class-passed -->
+          <div class="suite-Gringotts_Wizarding_Bank-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.crm.qa.testcases.CustomerLoginFunctionalitiesTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyCustomerLogin">
+                  </a> <!-- VerifyCustomerLogin -->
+                  <span class="method-name">VerifyCustomerLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyLogoutFunctionality">
+                  </a> <!-- VerifyLogoutFunctionality -->
+                  <span class="method-name">VerifyLogoutFunctionality</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifycustLoginBtnFunctionality">
+                  </a> <!-- VerifycustLoginBtnFunctionality -->
+                  <span class="method-name">VerifycustLoginBtnFunctionality</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="depositDecimalAmount">
+                  </a> <!-- depositDecimalAmount -->
+                  <span class="method-name">depositDecimalAmount</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="depositValidAmount">
+                  </a> <!-- depositValidAmount -->
+                  <span class="method-name">depositValidAmount</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="transactionBackFunctionalities">
+                  </a> <!-- transactionBackFunctionalities -->
+                  <span class="method-name">transactionBackFunctionalities</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="withdrawDecimalAmount">
+                  </a> <!-- withdrawDecimalAmount -->
+                  <span class="method-name">withdrawDecimalAmount</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="withdrawInsufficientAmount">
+                  </a> <!-- withdrawInsufficientAmount -->
+                  <span class="method-name">withdrawInsufficientAmount</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="withdrawValidAmount">
+                  </a> <!-- withdrawValidAmount -->
+                  <span class="method-name">withdrawValidAmount</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Gringotts_Wizarding_Bank-class-passed -->
+          <div class="suite-Gringotts_Wizarding_Bank-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.crm.qa.testcases.BankManagerLoginFunctionalitiesTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyBankManagerLogin">
+                  </a> <!-- VerifyBankManagerLogin -->
+                  <span class="method-name">VerifyBankManagerLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyBankManagerLoginBtnFunctionality">
+                  </a> <!-- VerifyBankManagerLoginBtnFunctionality -->
+                  <span class="method-name">VerifyBankManagerLoginBtnFunctionality</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyEmptyFieldBankManagerLogin">
+                  </a> <!-- VerifyEmptyFieldBankManagerLogin -->
+                  <span class="method-name">VerifyEmptyFieldBankManagerLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyOpenAccountFunctionality">
+                  </a> <!-- VerifyOpenAccountFunctionality -->
+                  <span class="method-name">VerifyOpenAccountFunctionality</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteCustomerFunctionality">
+                  </a> <!-- deleteCustomerFunctionality -->
+                  <span class="method-name">deleteCustomerFunctionality</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchCustomersFunctionalityByID">
+                  </a> <!-- searchCustomersFunctionalityByID -->
+                  <span class="method-name">searchCustomersFunctionalityByID</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchCustomersFunctionalityByName">
+                  </a> <!-- searchCustomersFunctionalityByName -->
+                  <span class="method-name">searchCustomersFunctionalityByName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchCustomersFunctionalityByPostCode">
+                  </a> <!-- searchCustomersFunctionalityByPostCode -->
+                  <span class="method-name">searchCustomersFunctionalityByPostCode</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Gringotts_Wizarding_Bank-class-passed -->
+        </div> <!-- panel Gringotts_Wizarding_Bank -->
+        <div panel-name="test-xml-Gringotts_Wizarding_Bank" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\AXIS_TRAINING\eclipse-workspace\Gringotts_Wizarding_Bank\src\main\resources\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Gringotts Wizarding Bank&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.qa.ExtentReportListener.ExtentReporterNG&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;GWB-Tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.crm.qa.testcases.HomeDashBoardTest&quot;/&gt;
+      &lt;class name=&quot;com.crm.qa.testcases.BankManagerLoginFunctionalitiesTest&quot;/&gt;
+      &lt;class name=&quot;com.crm.qa.testcases.CustomerLoginFunctionalitiesTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- GWB-Tests --&gt;
+&lt;/suite&gt; &lt;!-- Gringotts Wizarding Bank --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Gringotts_Wizarding_Bank" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Gringotts Wizarding Bank</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">GWB-Tests (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Gringotts_Wizarding_Bank" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Gringotts Wizarding Bank</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Gringotts_Wizarding_Bank" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Gringotts Wizarding Bank</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Gringotts_Wizarding_Bank');
+function tableData_Gringotts_Wizarding_Bank() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(32);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'VerifyEmptyFieldBankManagerLogin')
+data.setCell(0, 2, 'com.crm.qa.testcases.BankManagerLoginFunctionalitiesTest')
+data.setCell(0, 3, 2179);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'VerifyOpenAccountFunctionality')
+data.setCell(1, 2, 'com.crm.qa.testcases.BankManagerLoginFunctionalitiesTest')
+data.setCell(1, 3, 1779);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'depositValidAmount')
+data.setCell(2, 2, 'com.crm.qa.testcases.CustomerLoginFunctionalitiesTest')
+data.setCell(2, 3, 1662);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'withdrawValidAmount')
+data.setCell(3, 2, 'com.crm.qa.testcases.CustomerLoginFunctionalitiesTest')
+data.setCell(3, 3, 1472);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'VerifyBankManagerLogin')
+data.setCell(4, 2, 'com.crm.qa.testcases.BankManagerLoginFunctionalitiesTest')
+data.setCell(4, 3, 1411);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'deleteCustomerFunctionality')
+data.setCell(5, 2, 'com.crm.qa.testcases.BankManagerLoginFunctionalitiesTest')
+data.setCell(5, 3, 1343);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'VerifyBankManagerLoginBtnFunctionality')
+data.setCell(6, 2, 'com.crm.qa.testcases.BankManagerLoginFunctionalitiesTest')
+data.setCell(6, 3, 1304);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'VerifycustLoginBtnFunctionality')
+data.setCell(7, 2, 'com.crm.qa.testcases.CustomerLoginFunctionalitiesTest')
+data.setCell(7, 3, 1206);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'withdrawInValidAmount')
+data.setCell(8, 2, 'com.crm.qa.testcases.CustomerLoginFunctionalitiesTest')
+data.setCell(8, 3, 1092);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'VerifyInvalidLnameBankManagerLogin')
+data.setCell(9, 2, 'com.crm.qa.testcases.BankManagerLoginFunctionalitiesTest')
+data.setCell(9, 3, 993);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'VerifyCustomerLogin')
+data.setCell(10, 2, 'com.crm.qa.testcases.CustomerLoginFunctionalitiesTest')
+data.setCell(10, 3, 990);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'VerifyInvalidFnameBankManagerLogin')
+data.setCell(11, 2, 'com.crm.qa.testcases.BankManagerLoginFunctionalitiesTest')
+data.setCell(11, 3, 989);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'searchCustomersFunctionalityByName')
+data.setCell(12, 2, 'com.crm.qa.testcases.BankManagerLoginFunctionalitiesTest')
+data.setCell(12, 3, 957);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'VerifyDuplicateBankManagerLogin')
+data.setCell(13, 2, 'com.crm.qa.testcases.BankManagerLoginFunctionalitiesTest')
+data.setCell(13, 3, 951);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'transactionResetFunctionalities')
+data.setCell(14, 2, 'com.crm.qa.testcases.CustomerLoginFunctionalitiesTest')
+data.setCell(14, 3, 791);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'depositInValidAmount')
+data.setCell(15, 2, 'com.crm.qa.testcases.CustomerLoginFunctionalitiesTest')
+data.setCell(15, 3, 702);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'VerifyTitle')
+data.setCell(16, 2, 'com.crm.qa.testcases.HomeDashBoardTest')
+data.setCell(16, 3, 694);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'withdrawInsufficientAmount')
+data.setCell(17, 2, 'com.crm.qa.testcases.CustomerLoginFunctionalitiesTest')
+data.setCell(17, 3, 687);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'depositDecimalAmount')
+data.setCell(18, 2, 'com.crm.qa.testcases.CustomerLoginFunctionalitiesTest')
+data.setCell(18, 3, 685);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'withdrawDecimalAmount')
+data.setCell(19, 2, 'com.crm.qa.testcases.CustomerLoginFunctionalitiesTest')
+data.setCell(19, 3, 668);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'searchCustomersFunctionalityByPostCode')
+data.setCell(20, 2, 'com.crm.qa.testcases.BankManagerLoginFunctionalitiesTest')
+data.setCell(20, 3, 580);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'VerifybankManagerLoginBtnFunctionality')
+data.setCell(21, 2, 'com.crm.qa.testcases.HomeDashBoardTest')
+data.setCell(21, 3, 572);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'VerifycustLoginBtnFunctionality')
+data.setCell(22, 2, 'com.crm.qa.testcases.HomeDashBoardTest')
+data.setCell(22, 3, 569);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'searchCustomersFunctionalityByID')
+data.setCell(23, 2, 'com.crm.qa.testcases.BankManagerLoginFunctionalitiesTest')
+data.setCell(23, 3, 568);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'VerifyPostLogoutFunctionality')
+data.setCell(24, 2, 'com.crm.qa.testcases.CustomerLoginFunctionalitiesTest')
+data.setCell(24, 3, 308);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'VerifyHomeBtnFunctionality')
+data.setCell(25, 2, 'com.crm.qa.testcases.HomeDashBoardTest')
+data.setCell(25, 3, 285);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'VerifyLogoutFunctionality')
+data.setCell(26, 2, 'com.crm.qa.testcases.CustomerLoginFunctionalitiesTest')
+data.setCell(26, 3, 278);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'VerifyredirectToNonaccessablePageFunctionality')
+data.setCell(27, 2, 'com.crm.qa.testcases.CustomerLoginFunctionalitiesTest')
+data.setCell(27, 3, 277);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'transactionBackFunctionalities')
+data.setCell(28, 2, 'com.crm.qa.testcases.CustomerLoginFunctionalitiesTest')
+data.setCell(28, 3, 230);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'VerifyHomeBtn')
+data.setCell(29, 2, 'com.crm.qa.testcases.HomeDashBoardTest')
+data.setCell(29, 3, 132);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'VerifycustLoginBtn')
+data.setCell(30, 2, 'com.crm.qa.testcases.HomeDashBoardTest')
+data.setCell(30, 3, 98);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'VerifybankManagerLoginBtn')
+data.setCell(31, 2, 'com.crm.qa.testcases.HomeDashBoardTest')
+data.setCell(31, 3, 70);
+window.suiteTableData['Gringotts_Wizarding_Bank']= { tableData: data, tableDiv: 'times-div-Gringotts_Wizarding_Bank'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 26 seconds</span>
+              <div id="times-div-Gringotts_Wizarding_Bank">
+              </div> <!-- times-div-Gringotts_Wizarding_Bank -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Gringotts_Wizarding_Bank" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Gringotts Wizarding Bank</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Gringotts_Wizarding_Bank" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Gringotts_Wizarding_Bank" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.crm.qa.testcases.HomeDashBoardTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">VerifyTitle</span>
+                <span class="method-start">5101 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifyHomeBtn</span>
+                <span class="method-start">5805 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifycustLoginBtn</span>
+                <span class="method-start">5941 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifybankManagerLoginBtn</span>
+                <span class="method-start">6042 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifyHomeBtnFunctionality</span>
+                <span class="method-start">6114 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifycustLoginBtnFunctionality</span>
+                <span class="method-start">6401 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifybankManagerLoginBtnFunctionality</span>
+                <span class="method-start">6973 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">7548 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.crm.qa.testcases.BankManagerLoginFunctionalitiesTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">7964 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">VerifyBankManagerLoginBtnFunctionality</span>
+                <span class="method-start">11303 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifyBankManagerLogin</span>
+                <span class="method-start">12609 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">VerifyInvalidFnameBankManagerLogin</span>
+                <span class="method-start">14027 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">VerifyInvalidLnameBankManagerLogin</span>
+                <span class="method-start">15026 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifyEmptyFieldBankManagerLogin</span>
+                <span class="method-start">16029 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">VerifyDuplicateBankManagerLogin</span>
+                <span class="method-start">18210 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifyOpenAccountFunctionality</span>
+                <span class="method-start">19165 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchCustomersFunctionalityByName</span>
+                <span class="method-start">20946 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchCustomersFunctionalityByID</span>
+                <span class="method-start">21904 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchCustomersFunctionalityByPostCode</span>
+                <span class="method-start">22474 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">deleteCustomerFunctionality</span>
+                <span class="method-start">23057 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">24403 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.crm.qa.testcases.CustomerLoginFunctionalitiesTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">24814 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">VerifycustLoginBtnFunctionality</span>
+                <span class="method-start">27901 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifyCustomerLogin</span>
+                <span class="method-start">29109 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">depositValidAmount</span>
+                <span class="method-start">30101 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">depositInValidAmount</span>
+                <span class="method-start">31765 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">depositDecimalAmount</span>
+                <span class="method-start">32470 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">withdrawValidAmount</span>
+                <span class="method-start">33157 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">withdrawInValidAmount</span>
+                <span class="method-start">34630 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">withdrawDecimalAmount</span>
+                <span class="method-start">35726 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">withdrawInsufficientAmount</span>
+                <span class="method-start">36395 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">transactionResetFunctionalities</span>
+                <span class="method-start">37084 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">transactionBackFunctionalities</span>
+                <span class="method-start">37878 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifyLogoutFunctionality</span>
+                <span class="method-start">38110 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">VerifyPostLogoutFunctionality</span>
+                <span class="method-start">38392 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">VerifyredirectToNonaccessablePageFunctionality</span>
+                <span class="method-start">38703 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">38983 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
