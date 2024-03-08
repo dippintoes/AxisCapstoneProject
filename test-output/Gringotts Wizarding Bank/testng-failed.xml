@@ -4,8 +4,17 @@
   <listeners>
     <listener class-name="com.qa.ExtentReportListener.ExtentReporterNG"/>
   </listeners>
-  <test name="GWB-Tests(failed)">
+  <test parallel="tests" name="GWB-Tests(failed)">
+    <parameter name="browser" value="chrome"/>
     <classes>
+      <class name="com.crm.qa.testcases.BankManagerLoginFunctionalitiesTest">
+        <methods>
+          <include name="VerifyInvalidFnameBankManagerLogin"/>
+          <include name="VerifyInvalidLnameBankManagerLogin"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.BankManagerLoginFunctionalitiesTest -->
       <class name="com.crm.qa.testcases.CustomerLoginFunctionalitiesTest">
         <methods>
           <include name="withdrawInValidAmount"/>
@@ -17,6 +26,11 @@
           <include name="setUp"/>
         </methods>
       </class> <!-- com.crm.qa.testcases.CustomerLoginFunctionalitiesTest -->
+    </classes>
+  </test> <!-- GWB-Tests(failed) -->
+  <test parallel="tests" name="GWB-Tests-Firefox(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
       <class name="com.crm.qa.testcases.BankManagerLoginFunctionalitiesTest">
         <methods>
           <include name="VerifyInvalidFnameBankManagerLogin"/>
@@ -25,6 +39,17 @@
           <include name="setUp"/>
         </methods>
       </class> <!-- com.crm.qa.testcases.BankManagerLoginFunctionalitiesTest -->
+      <class name="com.crm.qa.testcases.CustomerLoginFunctionalitiesTest">
+        <methods>
+          <include name="withdrawInValidAmount"/>
+          <include name="VerifyredirectToNonaccessablePageFunctionality"/>
+          <include name="transactionResetFunctionalities"/>
+          <include name="VerifyPostLogoutFunctionality"/>
+          <include name="depositInValidAmount"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.CustomerLoginFunctionalitiesTest -->
     </classes>
-  </test> <!-- GWB-Tests(failed) -->
+  </test> <!-- GWB-Tests-Firefox(failed) -->
 </suite> <!-- Failed suite [Gringotts Wizarding Bank] -->

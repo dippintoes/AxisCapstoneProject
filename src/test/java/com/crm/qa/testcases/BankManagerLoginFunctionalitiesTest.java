@@ -3,6 +3,8 @@ package com.crm.qa.testcases;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Optional;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import com.crm.qa.base.TestBase;
@@ -18,8 +20,9 @@ public class BankManagerLoginFunctionalitiesTest extends TestBase{
 	}
 	
 	@BeforeClass 
-	public void setUp(){
-		initialization();
+	@Parameters("browser") 
+	public void setUp(@Optional("chrome") String browser){
+		initialization(browser);
 		hdbPage = new HomeDashBoardPage();
 		bmPage= new BankManagerLoginFunctionalitiesPage();
 	}

@@ -1,6 +1,6 @@
 package com.crm.qa.base;
 
-import java.io.FileInputStream;
+import java.io.FileInputStream;	
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
@@ -35,14 +35,13 @@ public class TestBase {
 	}
 	
 	
-	public static void initialization(){
-		String browserName = prop.getProperty("browser");
+	public static void initialization(String browserName){
 		
-		if(browserName.equals("chrome")){
+		if(browserName.equalsIgnoreCase("chrome")){
 			System.setProperty("webdriver.chrome.driver", "D:\\AXIS_TRAINING\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
 			driver = new ChromeDriver();
 		}
-		else if(browserName.equals("FF")){
+		else if(browserName.equalsIgnoreCase("firefox")){
 			System.setProperty("webdriver.gecko.driver", "D:\\AXIS_TRAINING\\geckodriver-v0.34.0-win32\\geckodriver.exe");
 			driver = new FirefoxDriver();
 		}

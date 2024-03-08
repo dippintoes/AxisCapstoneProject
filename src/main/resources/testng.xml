@@ -4,7 +4,16 @@
     <listeners>
         <listener class-name="com.qa.ExtentReportListener.ExtentReporterNG" />
     </listeners>
-    <test name="GWB-Tests" parallel="none" preserve-order="true">
+     <test name="GWB-Tests" parallel="tests" thread-count="2">
+        <parameter name="browser" value="chrome" />
+        <classes>
+            <class name="com.crm.qa.testcases.HomeDashBoardTest"/>
+            <class name="com.crm.qa.testcases.BankManagerLoginFunctionalitiesTest"/>
+            <class name="com.crm.qa.testcases.CustomerLoginFunctionalitiesTest"/>
+        </classes>
+    </test> <!-- Test -->
+    <test name="GWB-Tests-Firefox" parallel="tests" thread-count="2">
+        <parameter name="browser" value="firefox" />
         <classes>
             <class name="com.crm.qa.testcases.HomeDashBoardTest"/>
             <class name="com.crm.qa.testcases.BankManagerLoginFunctionalitiesTest"/>
