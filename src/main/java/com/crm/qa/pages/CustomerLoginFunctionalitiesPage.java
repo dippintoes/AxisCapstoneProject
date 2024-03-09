@@ -13,13 +13,9 @@ import com.crm.qa.base.TestBase;
 public class CustomerLoginFunctionalitiesPage extends TestBase {
 	
 		BankManagerLoginFunctionalitiesPage bmPage=new 	BankManagerLoginFunctionalitiesPage();
-;
-
 
 	    @FindBy(xpath="//select[@id='userSelect']")
 	    WebElement loginDropdown;
-	    
-	  
 	
 	    @FindBy(xpath="//button[contains(text(),'Login')]")
 	    WebElement loginBtn;

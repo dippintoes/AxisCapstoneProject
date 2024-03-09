@@ -78,25 +78,27 @@ public class HomeDashBoardPage extends TestBase{
 	    	driver.get(prop.getProperty("url"));
 	    	bankManagerLoginBtn.click();
 	    	addCustomerBtn.click();
+	    	
 	    	WebElement fnametext=driver.findElement(By.xpath("//input[@placeholder=\"First Name\"]"));
 			WebElement lnametext=driver.findElement(By.xpath("//input[@placeholder=\"Last Name\"]"));
 			WebElement pcodetext=driver.findElement(By.xpath("//input[@placeholder=\"Post Code\"]"));
 			WebElement customerSubmitBtn=driver.findElement(By.xpath("//body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/form[1]/button[1]"));
 	    	
-	    	
-	    	fnametext.sendKeys("Sirius");
+			fnametext.sendKeys("Sirius");
 	    	lnametext.sendKeys("Black");
 	    	pcodetext.sendKeys("22356");
-	    	
-	        customerSubmitBtn.click();
-	        
+	       
+	    	customerSubmitBtn.click();
+	     
 		    Alert alert = driver.switchTo().alert();
 	        alert.accept();
 	        
 	    	driver.get(prop.getProperty("url"));
+	    	
 	    	custLoginBtn.click();
 	    	loginDropdown.click();
-		    new Select(loginDropdown).selectByVisibleText("Sirius Black");
+		    
+	    	new Select(loginDropdown).selectByVisibleText("Sirius Black");
 			WebElement loginBtn=driver.findElement(By.xpath("//button[contains(text(),'Login')]"));
 		    loginBtn.click();
 	    	
