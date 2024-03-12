@@ -42,43 +42,7 @@ public class CustomerLoginFunctionalitiesPage extends TestBase {
 	        new Select(loginDropdown).selectByVisibleText(optionToSelect);
 	        loginBtn.click();
 	        return welcomeName.getText();
-	    }
-	    
-//	    public String verifyCustomerAccounts() {
-//	    	// Store dropdown options in a list
-//	    	Boolean flag=true;
-//	        List<String> dropdownOptions = new ArrayList<>();
-//	        // Iterate over the dropdown options
-//	        for (WebElement option : new Select(accDropdown).getOptions()) {
-//	            String optionText = option.getText();
-//	            dropdownOptions.add(optionText);
-//	        }
-//	        
-//	        String num=bmPage.getAccountNumber("Hermoine");
-//	        System.out.println(num);
-//	        String[] stringArray = num.split(" ");
-//	        for (String element : stringArray) {
-//	            System.out.println(element);
-//	        }
-//	        
-//	        // Match dropdown options with accountNumberArray
-//	        for (String accountNumber : stringArray) {
-//	            if (dropdownOptions.contains(accountNumber)) {
-//	                System.out.println("Match found for Account Number: " + accountNumber);
-//	                flag=true;
-//	            } else {
-//	                System.out.println("No match found for Account Number: " + accountNumber);
-//	                flag=false;
-//	            }
-//	        }
-//	        if(flag=true) {
-//	        	return "All account numbers of" + optionToSelect + "has been verified";
-//	        }
-//	        else {
-//	        	return "Account number mismatch has been found";
-//	        }
-//	    }
-//	    
+	    }    
 	    //deposit related functionalities
 	    
 	    //deposit tab

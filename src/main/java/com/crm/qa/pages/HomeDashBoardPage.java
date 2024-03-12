@@ -70,8 +70,6 @@ public class HomeDashBoardPage extends TestBase{
 			return addCustomerBtn.isDisplayed();
 		}
 		
-	   
-		
 		//Non account holders related functionalities
 	     public String nonAccountCustomers(){ 
 	    	//transactions tab
